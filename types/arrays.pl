@@ -27,3 +27,8 @@ print "@sample \n";
 for my $my_sample (@sample) {
     print "Sample: $my_sample \n";
 }
+
+
+#Slices
+my @sub_sample = @sample[1,3,5];
+print "@sub_sample\n"

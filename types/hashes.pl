@@ -21,7 +21,13 @@ for my $number (values %numbers) {
 
 #Assigning
 $numbers{"four"} = 4;
-
 %numbers = (%numbers, "five" => 5, "six" => 6);
+print %numbers;
+print "\n";
 
-print %numbers
+#Slices
+my @sub_numbers = @numbers{'one', 'two'};
+print @sub_numbers
+
+
+
